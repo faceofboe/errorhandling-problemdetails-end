@@ -1,13 +1,14 @@
-﻿using errorhandling_problemdetails.Repository.Data.Models;
+﻿using ErrorHandlingProblemDetails.Data.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace errorhandling_problemdetails.Repository.Context
+namespace ErrorHandlingProblemDetails.Data.Context
 {
-    public class AppDbContext : DbContext
+	public class AppDbContext : DbContext
     {
         public DbSet<Product> Products { get; set; }
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

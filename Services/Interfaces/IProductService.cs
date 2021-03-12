@@ -1,11 +1,8 @@
-﻿using errorhandling_problemdetails.Repository.Data.Models;
-using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using ErrorHandlingProblemDetails.Data.Models;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
-namespace errorhandling_problemdetails.Services.Interfaces
+namespace ErrorHandlingProblemDetails.Services.Interfaces
 {
     public interface IProductService
     {

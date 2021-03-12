@@ -1,10 +1,10 @@
-using errorhandling_problemdetails.Repository.Context;
+using ErrorHandlingProblemDetails.Data.Context;
 using Microsoft.AspNetCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace errorhandling_problemdetails
+namespace ErrorHandlingProblemDetails
 {
     public class Program
     {
